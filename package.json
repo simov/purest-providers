@@ -1,0 +1,28 @@
+{
+  "name": "@purest/providers",
+  "version": "1.0.0",
+  "description": "REST API providers configuration for the Purest module",
+  "keywords": [
+    "purest",
+    "rest",
+    "api",
+    "provider"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/purestjs/providers",
+  "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (http://simov.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purestjs/providers.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "./index.js",
+  "files": [
+    "config/",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {}
+}
