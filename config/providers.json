@@ -1309,6 +1309,20 @@
       }
     }
   },
+  "ibm": {
+    "https://login.ibm.com/oidc/endpoint/default/": {
+      "__domain": {
+        "auth": {
+          "auth": {"bearer": "[0]"}
+        }
+      },
+      "{endpoint}": {
+        "__path": {
+          "alias": "__default"
+        }
+      }
+    }
+  },
   "imgur": {
     "https://api.imgur.com": {
       "__domain": {
