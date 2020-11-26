@@ -2695,5 +2695,28 @@
         }
       }
     }
+  },
+  "zoom": {
+    "https://zoom.us/": {
+      "__domain": {
+        "auth": {
+          "auth": {"bearer": "[0]"}
+        }
+      },
+      "[version]/{endpoint}": {
+        "__path": {
+          "alias": "__default",
+          "version": "v2"
+        }
+      },
+      "oauth/revoke": {
+        "__path": {
+          "alias": "logout",
+          "auth": {
+            "auth": { "basic": "[0]" }
+          }
+        }
+      }
+    }
   }
 }
