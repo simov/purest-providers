@@ -1353,7 +1353,7 @@
       },
       "{endpoint}": {
         "__path": {
-          "alias": "__default",
+          "alias": "__default"
         }
       }
     }
